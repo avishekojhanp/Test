@@ -1,0 +1,12 @@
+body {
+    background-image: url('netflix.jpg'); /* Desktop background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Media query for Android screens */
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url('background-image-android.jpg'); /* Android background image */
+    }
+}
